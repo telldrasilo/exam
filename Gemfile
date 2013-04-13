@@ -27,6 +27,8 @@ group :production do
   gem 'pg', '0.12.2'
 end
 
+gem 'yaml_db', :git => 'git://github.com/ludicast/yaml_db.git'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
