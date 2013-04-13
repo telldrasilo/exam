@@ -7,7 +7,6 @@ gem 'rails', '3.2.13'
 
 group :development do
   gem 'sqlite3', '1.3.5'
-  gem 'webrick', '~> 1.3.1'
 end
 
 # Gems used only for assets and not required
@@ -28,8 +27,8 @@ group :production do
   gem 'pg', '0.12.2'
 end
 
-gem 'yaml_db', :git => 'git://github.com/ludicast/yaml_db.git'
-gem 'unicorn'
+gem 'thin'
+gem 'newrelic_rpm'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
